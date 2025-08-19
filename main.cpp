@@ -42,6 +42,7 @@ int main(){
         if (reiniciar == 1){
             memcpy(tabuleiro, inicial, sizeof(tabuleiro));
             reiniciar = 0;
+            casas = 0;
         }
 
         imprimirTabuleiro();
@@ -132,3 +133,4 @@ int main(){
     return 0;
 
 }
+
